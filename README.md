@@ -17,8 +17,8 @@
 
 | 實際結果圖片 |
 | --- |
-| No1. ![image](https://github.com/user-attachments/assets/121bbf6e-c3e6-459b-8d14-b0c845124d6a) |
-| No2. ![image](https://github.com/user-attachments/assets/e8cdc6e2-db7a-4b3c-b33d-ddfc32ebdc7f) |
+| No1. ![image](https://github.com/user-attachments/assets/05e727e9-2207-41fc-bf83-d65dcaf70663) |
+| No2. ![image](https://github.com/user-attachments/assets/93cf128a-ab30-4433-9f1d-7dbc09886712) |
 
 ## 二、 搜尋功能測試
 | 前置作業 | 測試項目 | 測試步驟 | 預期結果 | 實際結果 | 驗證狀態 |
@@ -35,27 +35,33 @@
 | 前置作業 | 測試項目 | 測試步驟 | 預期結果 | 實際結果 | 驗證狀態 |
 | --- | --- | --- | --- | --- | --- |
 | 登入帳號 | Premium Logo| 查看左上角Logo  | 應該顯示為Premium | 符合預期 | Pass |
-| 登入帳號 | 下載影片 | 1. 挑選任意影片 <br> 2.點擊 More operations按鈕 <br> 3.點擊下載 | 1. 出現正在下載提示 <br> 2. 出現在下載清單中| 符合預期 | Pass |
+| 登入帳號 | 下載影片 | 1. 挑選任意影片 <br> 2.點擊 More operations按鈕 <br> 3.點擊下載 | 1. 出現正在下載提示 <br> 2. 出現在下載清單中 | 符合預期 | Pass |
 | 登入帳號 | 確認首頁廣告 | 在首頁中滾動尋找廣告 | 不應該出現任何廣告 | 符合預期 | Pass |
+| 登入帳號| Premium 畫質| 1. 點擊任意影片 <br> 2. 點擊影片中齒輪圖示並點擊畫質 <br> 3.查看畫質列表 | 應該出現一個 Premium畫質的選項 | 符合預期 | Pass |
 
 | 實際結果圖片 |
 | --- |
-| No1. ![image](https://github.com/user-attachments/assets/0d2cbce7-6e88-442a-874e-bec20decc1dd) |
+| No1. ![image](https://github.com/user-attachments/assets/29f39127-b64b-4759-9a63-1bf97868fda3) |
 | No2. ![image](https://github.com/user-attachments/assets/6a2814c1-89d6-4029-ba1c-eeeebdb53817) |
 | No3. ![image](https://github.com/user-attachments/assets/6ab46d18-b9ab-4bbc-82a9-72f6e524f2c2) |
+| No4. ![image](https://github.com/user-attachments/assets/71c53460-9b35-41aa-b268-1285eebc82a2) |
+
 
 ## 四、 觀看影片
 | 前置作業 | 測試項目 | 測試步驟 | 預期結果 | 實際結果 | 驗證狀態 |
 | --- | --- | --- | --- | --- | --- |
 | 登入帳號 | 觀看影片內的廣告顯示 | 點擊任意一部影片  | 不應該出現任何廣告 | 符合預期 | Pass |
 | 登入帳號 | 查看右側推薦影片區塊的廣告 | 點擊任意一部影片  | 在右側推薦影片最上方不應該顯示廣告 | 符合預期 | Pass |
+| 登入帳號 | 調整影片音量 | 1. 點擊任意一部影片 <br> 2. 滑鼠Hover到影片音量圖示上 <br> 3. 調整音量bar | 音量會隨著Bar的改動而有改變 | 符合預期| Pass| 
+| 登入帳號 | 快進/倒轉影片 | 1. 點擊任意一部影片 <br> 2.點擊鍵盤方向鍵左/右 | 影片會倒轉/快進 | 符合預期| Pass| 
 
 
 | 實際結果圖片 |
 | --- |
 |No1. ![image](https://github.com/user-attachments/assets/3da839ea-62f3-48c2-a163-a4bbefd9a12d) |
 |No2. ![image](https://github.com/user-attachments/assets/38c6580b-fbe5-4ff9-a978-2a7f3e2136cb) |
-
+|No3. ![image](https://github.com/user-attachments/assets/e562c464-9a50-4d56-99c9-179cf94a5e12) |
+|No4. ![image](https://github.com/user-attachments/assets/8ae7f8a6-b570-4f71-b13e-5d5de15b8e9c) |
 
 # 一般帳號/未登入帳號 測試
 ## 一、 推薦內容測試
@@ -75,7 +81,7 @@
 | 登入帳號/未登入 | YouTube Logo| 查看左上角Logo  | 應該顯示為YouTube | 符合預期 | Pass |
 | 登入帳號 | 下載影片 | 1. 挑選任意影片 <br> 2.點擊 More operations按鈕 <br> 3.點擊下載 | 應出現需要訂閱的提示訊息| 符合預期 | Pass |
 | 登入帳號/未登入 | 確認首頁廣告 | 在首頁中滾動尋找廣告 | 第一則影片的位置應該要出現廣告 | 符合預期 | Pass |
-
+| 登入帳號/未登入 | Premium 畫質| 1. 點擊任意影片 <br> 2. 點擊影片中齒輪圖示並點擊畫質 <br> 3.查看畫質列表 | 不應該出現一個 Premium畫質的選項 | 符合預期 | Pass |
 
 
 | 實際結果圖片 |
@@ -83,7 +89,7 @@
 | No1. ![image](https://github.com/user-attachments/assets/42f6b261-7e9b-40e1-a25b-cf879dc4d908) |
 | No2. ![image](https://github.com/user-attachments/assets/aff6142a-2494-4940-aa1f-023907df0867) |
 | No3. ![image](https://github.com/user-attachments/assets/33e9358f-4f19-493d-9894-0a8d67eb9ea6) |
-
+| No4. ![image](https://github.com/user-attachments/assets/3c954d88-9524-4ab3-9ee1-78fcbd37ddb3) |
 
 
 ## 四、 觀看影片
